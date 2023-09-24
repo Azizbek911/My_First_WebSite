@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topmenu{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #888;
+    box-sizing: border-box;
+    display: flex;
+}
+.DS img{
+    width: 119px;
+    height: 56px;
+}
+.DS img:hover{
+    cursor: pointer;
+}
+.DS{
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 60%;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.text b{
+    text-transform: none;
+    text-decoration: none;
+    text-shadow: none;
+    color: #888;
+    font-size: 20px;
+}
+.text img{
+    text-transform: none;
+    text-decoration: none;
+    text-shadow: none;
+    color: #888;
+}
+.text b:hover{
+    cursor: pointer;
+}
+.belgi{
+    width: 20%;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.belgi img:hover{
+    cursor: pointer;
+}
+.maket{
+    margin-top: 11px;
+    color: #999;
+    text-transform: none;
+    text-decoration: dotted;
+}
+.telefonlar{
+    box-sizing: border-box;
+    width: 80%;
+    height: 500px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.telefonlar .text1{
+    padding: 32px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+}
+.telefonlar .text2{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.telefonlar .text1 .h1{
+    width: 100%;
+    display: block;
+    font-size: 35px;
+}
+.telefonlar .text1 .h1 span{
+    color: red;
+}
+.telefonlar .text1 .p p{
+    font-size: 20px;
+}
+.telefonlar .text1 .p{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.telefonlar .text1 button{
+    margin: 30px 10px ;
+    width:auto;
+    height: auto;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+.telefonlar .text1 button:hover{
+    cursor: pointer;
+    background-color: #888;
+}
+.telefonlar .text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.computer{
+    margin-top: 162px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.computer .photo{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.computertext{
+    box-sizing: border-box;
+    width: 55%;
+    height: 100%;
+}
+.computertext .h1{
+    height: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.computertext .p{
+    margin: auto;
+    width: 90%;
+    height: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.computertext span{
+    color: red;
+}
+.computertext .p p{
+    font-size: 25px;
+}
+.computertext .p span{
+    color: red;
+}
+.space{
+    height: 200px;
+}
+.menutext{
+    margin: 159px auto;
+    width: 85%;
+    height: 459px;
+    display: block;
+    box-sizing: border-box;
+}
+.menutext .top{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menutext .top h1{
+    text-align: center;
+}
+.menutext .bottom{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+.menutext .one{
+    width: 33.3%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    justify-content: flex-end;
+}
+.menutext .one p{
+    margin-top: 10px;
+    font-size: 20px;
+    height: 120px;
+}
+.menutext .one h2{
+    color: red;
+    margin-top: 10px;
+}
+.menutext .one button{
+    margin-top: 23px;
+    width: 119px;
+    font-size: 15px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: white;
+    text-decoration: dashed;
+}
+.menutext .one button:hover{
+    cursor: pointer;
+    background-color: #888;
+}
+.bottommenu{
+    width: 88%;
+    height: 188px;
+    box-sizing: border-box;
+    margin: 118px auto;
+    display: flex;
+}
+.bottommenu .left{
+    width: 30%;
+    height: 100%;
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+}
+.bottommenu .right{
+    width: 70%;
+    height: 100%;
+    display: block;
+    font-size: 30px;
+    padding: 20px;
+}
+.bottommenu .left p{
+    color: #888;
+}
+.bottommenu .right p{
+    color: #888;
+}
+.bottom1{
+    height: 64px;
+    width: 100%;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom1 h1{
+    color: rgb(230, 210, 216);
+}
